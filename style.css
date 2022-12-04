@@ -469,19 +469,27 @@
 .f {
   font-size: 17px;
   display: flex;
+  flex-direction: column;
+}
+.f--list {
+  display: flex;
+  margin: 30px;
+}
+.f_second {
+  margin: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .f img {
   width: 20px;
   height: 20px;
-  color: #1264a3;
 }
 .f a {
   color: #1264a3;
 }
-.f div {
-  display: flex;
-  align-items: center;
-}
-.f--list {
-  margin: 30px;
+.f_third {
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 13px;
 }/*# sourceMappingURL=style.css.map */
