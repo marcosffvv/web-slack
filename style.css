@@ -251,6 +251,7 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  flex-direction: column;
 }
 .m__seventh--third--first {
   color: white;
@@ -265,7 +266,7 @@
 }
 .m__seventh--third--second {
   color: rgb(77, 30, 77);
-  background-color: aliceblue;
+  background-color: white;
   width: 400px;
   height: 50px;
   display: flex;
@@ -273,13 +274,12 @@
   align-items: center;
   border-radius: 5%;
   margin-bottom: 10%;
+  box-shadow: inset 0 0 0 1px rgb(77, 30, 77);
 }
 .m__eighth {
-  align-items: center;
-  text-align: center;
-  background-color: white;
   display: flex;
-  justify-content: space-around;
+  align-items: center;
+  background-color: white;
   flex-wrap: wrap;
   width: 100%;
 }
@@ -297,18 +297,11 @@
   font-size: 50px;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 }
 .m__eighth--first--second {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 10%;
 }
 .m__eighth--second {
   width: 100%;
@@ -330,12 +323,9 @@
   text-align: center;
 }
 .m__eighth--second--second {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 10%;
 }
 .m__eighth--third {
   width: 100%;
@@ -357,18 +347,12 @@
   text-align: center;
 }
 .m__eighth--third--second {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 15%;
 }
 .m__ninth {
-  padding-top: 50px;
   display: flex;
-  width: 100%;
-  height: 400px;
   flex-wrap: wrap;
   background-color: white;
   justify-content: space-around;
@@ -377,31 +361,36 @@
   flex-wrap: wrap;
   display: flex;
   width: 100%;
-  height: 200px;
-  padding-bottom: 8px;
+  margin-bottom: 10%;
 }
 .m__ninth--second {
   width: 100%;
-  font-size: 25px;
+  font-size: 21px;
   flex-wrap: wrap;
   display: flex;
-  text-align: center;
-  padding-bottom: 20px;
+  text-align: start;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+  font-style: italic;
 }
 .m__tenth {
-  background-color: white;
+  background-color: #f4ede4;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   width: 100%;
 }
 .m__tenth p {
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 10%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 15px;
 }
 .m__tenth--first {
-  background-color: bisque;
+  background-color: #f4ede4;
   display: inline;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -418,4 +407,81 @@
   width: 300px;
   margin: 2%;
   text-align: center;
+}
+.m__once {
+  display: flex;
+  background-color: rgb(77, 30, 77);
+  padding-top: 50px;
+  flex-wrap: wrap;
+  width: 100%;
+  flex-direction: column;
+  -webkit-clip-path: ellipse(105% 100% at center top);
+          clip-path: ellipse(105% 100% at center top);
+  padding-bottom: 6rem;
+}
+.m__once--first {
+  display: flex;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+}
+.m__once--second {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.m__once--second--first {
+  color: rgb(77, 30, 77);
+  width: 400px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 5%;
+  margin-bottom: 3%;
+  margin-top: 5%;
+}
+.m__once--second--second {
+  background-color: rgb(77, 30, 77);
+  color: white;
+  width: 400px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5%;
+  box-shadow: inset 0 0 0 1px #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.f {
+  font-size: 17px;
+  display: flex;
+}
+.f img {
+  width: 20px;
+  height: 20px;
+  color: #1264a3;
+}
+.f a {
+  color: #1264a3;
+}
+.f div {
+  display: flex;
+  align-items: center;
+}
+.f--list {
+  margin: 30px;
 }/*# sourceMappingURL=style.css.map */
