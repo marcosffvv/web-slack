@@ -301,7 +301,6 @@
         display: flex;
         flex-wrap: wrap;
         background-color: white;
-        justify-content: space-around;
 
         &--first{
             flex-wrap: wrap;
@@ -317,8 +316,32 @@
             text-align: start;
             margin-left: 10%;
             margin-right: 10%;
-            margin-bottom: 10%;
+            margin-bottom: 5%;
             font-style: italic;
+        }
+        &--third{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 5%;
+            margin-left: 10%;
+            p{
+                align-items: center;
+                align-content: center;
+                justify-content: flex-start;
+            }
+            &__two{
+                padding-bottom: 20px;
+            }
+            &__three{
+                color: #1264a3;
+                padding-bottom: 70px;
+            }
+            &__four{
+                font-size: 13px;
+                text-align: center;
+                padding-right: 30px;
+                color: grey;
+            }
         }
     }
     &__tenth{
@@ -407,6 +430,13 @@
                 border-radius: 5%;
                 box-shadow: inset 0 0 0 1px #fff;              
             }
+        }
+    }
+    &__doce{
+        img{
+            margin: 30%;
+            width: 100%;
+            height: 50px;
         }
     }
 }
