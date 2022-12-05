@@ -307,6 +307,7 @@
             display: flex;
             width: 100%;
             margin-bottom: 10%;
+            border-radius: 50px;
         }
         &--second{
             width: 100%;
@@ -433,10 +434,36 @@
         }
     }
     &__doce{
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+
         img{
-            margin: 30%;
-            width: 100%;
+            padding-left: 10px;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            width: 50px;
             height: 50px;
+        }
+        &--first{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+
+            &--div{
+                padding: 10px;
+                display: flex;
+                flex-direction: column;
+                text-align: start;
+                align-content: flex-start;
+
+                ul{
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    padding-right: 10px;
+                    color: grey;
+                }
+            }
         }
     }
 }
